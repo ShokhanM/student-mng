@@ -1,0 +1,15 @@
+<div class="student-form">
+  <h2>Add New Student</h2>
+  <form (submit)="onSubmit()">
+    <label for="first_name">Name:</label>
+    <input type="text" id="first_name" name="first" [(ngModel)]="newStudent.first_name" required>
+
+    <label for="last_name">Last name:</label>
+    <input type="text" id="last_name" name="last" [(ngModel)]="newStudent.last_name" required>
+
+    <label for="grade">Grade:</label>
+    <input type="number" id="grade" name="grade" [(ngModel)]="newStudent.grade" required>
+
+    <button type="submit">Add Student</button>
+  </form>
+</div>

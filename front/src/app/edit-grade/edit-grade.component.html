@@ -1,0 +1,9 @@
+<form (ngSubmit)="onSubmit()">
+  <div><label>Name: {{student.first_name}}</label></div>
+  <label for="grade" >Grade:</label>
+  <input id = "grade" [(ngModel)]="student.grade" name="grade" required>
+
+  <!-- Add fields for other student properties here -->
+
+  <button type="submit">Update</button>
+</form>

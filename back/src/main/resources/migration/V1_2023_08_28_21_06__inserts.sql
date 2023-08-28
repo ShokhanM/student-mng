@@ -1,0 +1,10 @@
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (1, 'test', 'test', 211321);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (2, 'Test1', null, 1);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (3, 'Test1', 'test22', 123);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (4, 'tes', 'ts', 432);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (5, '123', '123', 123);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (6, 'asd', 'asd', 123);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (7, 'we', 'ew', 321);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (8, 'asd', 'asd', 123);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (9, 'wew', 'wewe', 321);
+INSERT INTO platonus.student (id, first_name, last_name, grade) VALUES (10, 'qweqwe', '1', 123);

@@ -1,0 +1,46 @@
+/* Style the student list container */
+.student-list {
+  width: 100%; /* Occupy full page width */
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the student list header */
+.student-list h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the student list items */
+.student-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style alternate rows differently for better readability */
+.student-list li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Add some spacing and styling to list items */
+.student-list li:last-child {
+  border-bottom: none;
+}
+
+/* Style the student name and grade */
+.student-list li span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Hover effect on list items */
+.student-list li:hover {
+  background-color: #e0e0e0;
+}

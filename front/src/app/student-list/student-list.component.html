@@ -1,0 +1,20 @@
+<div *ngIf="students.length > 0" class="student-list">
+  <h2>List of Students</h2>
+  <ul>
+    <input [(ngModel)]="filterText" placeholder="Filter students by name" />
+    <div class="sorting-buttons">
+      <button (click)="sortBy = 'firstName'">Sort by First Name</button>
+      <button (click)="sortBy = 'lastName'">Sort by Last Name</button>
+    </div>
+
+    <li *ngFor="let student of students | filterStudents: filterText | sortStudents: sortBy">
+      {{ student.first_name }} {{student.last_name}} {{student.grade}}
+      <a [routerLink]="['/students', student.id]">edit</a>
+    </li>
+  </ul>
+  <button [routerLink]="['/add-student']">Add Student</button>
+</div>
+<div *ngIf="students.length === 0">
+  <p>No students found.</p>
+</div>
+
